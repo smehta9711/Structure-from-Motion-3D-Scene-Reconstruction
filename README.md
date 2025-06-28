@@ -25,7 +25,7 @@ Structure from Motion is a photogrammetric range imaging technique for estimatin
 
 Group_19.zip 
 │   README.md
-|   Code 
+├── Code 
 |   ├── Phase1/
 |   | ├── GetInliersRANSAC.py          # RANSAC for feature matching inliers
 |   | ├── EstimateFundamentalMatrix.py # Fundamental matrix computation
@@ -39,8 +39,8 @@ Group_19.zip
 |   | ├── BuildVisibilityMatrix.py     # Build visibility matrix for BA
 |   | ├── BundleAdjustment.py          # Bundle adjustment implementation
 |   | ├── Wrapper.py                   # Main script that runs the pipeline
-|   | Data
-|   | └── IntermediateOutputImages/    # Visualization outputs
+├── Data
+|   └── IntermediateOutputImages/    # Visualization outputs
 
 ```
 
